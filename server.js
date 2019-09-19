@@ -26,7 +26,6 @@ const { PORT, DATABASE_URL } = require("./config");
 const app = express();
 app.use(express.json());
 //app.use(express.static(path.join(__dirname, 'client/build')));
-app.use('/relativepath',express.static(path.join(__dirname, 'build')));
 app.use(morgan("common"));
 app.use(express.static('public'));
 
