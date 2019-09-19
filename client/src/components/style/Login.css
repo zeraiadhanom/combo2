@@ -1,0 +1,32 @@
+.LoginPage {
+     
+     width: 450px;
+     Height: 500px;
+     border: 1px solid black;
+     margin-top: 30px;
+     display: inline-block;
+     padding-top: 10px;
+     border-radius: 20px;
+     background: black;
+     color: white;
+     margin-top: 20px;
+}
+
+.login {
+  margin-top: 10px;
+  width: 195px;
+  background:white;
+  color: black;
+  border-radius: 10px;
+}
+
+.login-form {
+     border: 1px solid black;
+     height: 400px;
+     width: 450px;
+     margin: auto;
+}
+
+.App {
+     margin-top: 20px;
+}

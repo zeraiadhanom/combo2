@@ -1,0 +1,14 @@
+
+.header-bar {
+    flex: auto;
+    float: right;
+    margin-top: 5px;
+    margin-right: 80px;
+    border-radius: 10px;
+    background-color: #001f3f;
+    color: white;
+    text-align:center;
+    width: 120px;
+    font-size: 20px;
+    height: 45px;
+}

@@ -1,0 +1,10 @@
+Layout:
+
+1. Home will show [login page]
+2. about [some discription on how to use and what the app]
+3. Favorite Videos - will list saved videos [ how do i do this?how can i save videos db]
+4. Kids only: this needs to show only specific to kids [ how can i filter this]
+6. Search item; will search using regExpression
+7. main Screen displays selected video
+6. list of videos will be displays on the right box with names and thubmnails;
+

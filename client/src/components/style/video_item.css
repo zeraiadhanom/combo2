@@ -1,0 +1,16 @@
+.video-item {
+    display: flex;
+    margin: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 20px;
+ }
+ 
+ .content {
+    
+     align-content: center;
+     padding-right: 10px; 
+     width: 300px;
+     padding-top: 10px;
+ 
+ }

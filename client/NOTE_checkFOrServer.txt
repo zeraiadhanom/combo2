@@ -1,0 +1,97 @@
+
+https://www.coursera.org/lecture/front-end-react/exercise-video-fetch-from-server-NiTcd
+
+
+
+10. YouTubeDirect
+
+Build your own version of YouTube using their api. Use it to only show videos from channels you specify.
+For extra utility, make a parental feature that allows you to block certain channels.
+
+
+
+Redux React youtube API referece:
+
+https://github.com/productioncoder/youtube-react/tree/master/src/components/VideoInfoBox
+
+For VideoList: https://github.com/anarsultani97/modern-react-redux/blob/master/src/components/VideoList.js
+
+
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+
+
+=============================================================================//=================
+
+https://www.twilio.com/blog/react-app-with-node-js-server-proxy [goodone]
+
+
+
+https://github.com/imhighyat/hungryHelpers/tree/master/routers
+
+
+very close project:
+
+https://github.com/Marjona6/not-just-luck-thinkful-full-stack-capstone/tree/master/public
+
+
+https://github.com/yjalette/shopping-planner-node-capstone
+
+
+
+
+how to copy video id only:
+
+var video_id = window.location.search.split('v=')[1];
+var ampersandPosition = video_id.indexOf('&');
+if(ampersandPosition != -1) {
+video_id = video_id.substring(0, ampersandPosition);
+`
+
+var link = 'https://www.youtube.com/watch?v=hv_X327YUdI&list=SPGznEl712WelO6ZhS8lc2ssweLuQaCKld';
+var reg = new RegExp("[&?]list=([a-z0-9_]+)","i");
+
+
+
+https://daveceddia.com/ajax-requests-in-react/  [read]
+https://www.robinwieruch.de/react-fetching-data/
+https://html5hive.org/react-tutorial/
+
+
+
+===========================///===========================
+
+
+
+
+
+
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+
